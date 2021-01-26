@@ -18,7 +18,7 @@ The Bot is hosted in AWS Lambda.
 
 All request types are defined in the [requesttype.js](./lib/requesttype.js) file. The Bot reads the file then generates the contents for Slack. 
 
-For example, this is how the `Open AWS Account` request type looks like in Slack:
+For example, this is how the `Request Firewall Change` request type looks like in Slack:
 
 ![sample](./diagrams/request_sample.png)
 
