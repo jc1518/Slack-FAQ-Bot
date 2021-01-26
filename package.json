@@ -1,0 +1,19 @@
+{
+    "name": "slack-faq-bot",
+    "version": "1.0.0",
+    "description": "Slack FAQ Bot",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@slack/bolt": "^2.5.0",
+        "aws-serverless-express": "^3.3.8"
+    },
+    "devDependencies": {
+        "serverless": "^2.13.0",
+        "serverless-offline": "^6.8.0"
+    }
+}
